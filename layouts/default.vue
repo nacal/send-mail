@@ -17,6 +17,6 @@
 }
 
 .layout__footer {
-  min-height: 10vh;
+  min-height: 5vh;
 }
 </style>

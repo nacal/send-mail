@@ -1,14 +1,13 @@
 <template>
-  <footer class="footer">
-    <small class="footer__copyright">Hikaru Nakata</small>
+  <footer class="footer u-centering -fd">
+    <article class="footer__copyright">
+      <small lang="en">&copy; 2020 Hikaru Nakata.</small>
+    </article>
   </footer>
 </template>
 
 <style lang="scss">
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: $main-color;
 
   &__copyright {

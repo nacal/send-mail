@@ -34,7 +34,7 @@ export default {}
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 75vh;
   margin: 0 auto;
   text-align: center;
 }
