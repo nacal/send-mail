@@ -1,22 +1,26 @@
 <template>
-  <div class="layout">
-    <Header class="layout__header" />
-    <Nuxt class="layout__main" />
-    <Footer class="layout__footer" />
-  </div>
+  <v-app>
+    <v-toolbar app>
+      <v-toolbar-title class="headline text-uppercase">
+        <span>Vuetify</span>
+        <span class="font-weight-light">MATERIAL DESIGN</span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn
+        flat
+        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        target="_blank"
+      >
+        <span class="mr-2">Latest Release</span>
+      </v-btn>
+    </v-toolbar>
+
+    <v-content>
+      <Nuxt />
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-.layout__header {
-  min-height: 20vh;
-  font-size: 0.5rem;
-}
-
-.layout__main {
-  width: 100%;
-}
-
-.layout__footer {
-  min-height: 5vh;
-}
-</style>
+<script>
+export default {}
+</script>
